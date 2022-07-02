@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import FollowingButton from 'features/following/button/following-button.styles';
 
-type FollowingButtonProps = {
+export type FollowingButtonProps = {
   isFav: boolean;
   onToggleFavorite: (setFav: boolean) => void;
 };
